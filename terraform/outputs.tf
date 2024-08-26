@@ -4,5 +4,5 @@ output "region" {
 }
 output "jumphost_public_ip" {
   description = "Public IP address of the EC2 jumphost"
-  value       = aws_instance.ec2.public_ip
+  value       = aws_instance.ubuntu.public_ip
 }
